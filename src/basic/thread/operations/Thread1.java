@@ -1,6 +1,14 @@
 package basic.thread.operations;
 
 //import java.util.Set;
+/*
+ * Thread called in parent and executes run of child on thread start
+ * scheduling depends on os scheduling 
+ * yeild  passes execution to thread of same priority its generally not used
+ * It is rarely appropriate to use this method. It may be useful
+ * for debugging or testing purposes, where it may help to reproduce
+ * bugs due to race conditions
+ */
 
 class Thread_class extends Thread{
 		public void run() {
